@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<span class="test hello">哈哈哈哈哈</span>
+
+<p class="test2">这是一段文本</p>
+
+<div class="foo  bar test">这是另一段文本</div>
+
+<a href="#" class="foo test haha">这是一个链接</a>
+
+<script type="text/javascript">
+
+    window.onload = function () {
+        var nodes = document.getElementsByTagName("*");
+        var nodeArray = [].slice.call(nodes);
+        var regExp = /(\b)+(test)(\b)+/;
+        nodeArray.forEach(function (node) {
+            if (regExp.test(node.className)) {
+                node.style.backgroundColor = "red";
+            }
+        });
+    }
+</script>
+</body>
+</html>

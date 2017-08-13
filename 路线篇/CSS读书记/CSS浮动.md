@@ -140,7 +140,7 @@ div{float:right}
     </body>
 </html>
 ```
->**原理**：父级div手动定义height，就解决了父级div无法自动获取到高度的问题。
+**原理**：父级div手动定义height，就解决了父级div无法自动获取到高度的问题。
 
 **优点**：简单、代码少、容易掌握
 
@@ -195,7 +195,7 @@ div{float:right}
     </body>
 </html>
 ```
->原理：添加一个空div，利用css提高的clear:both清除浮动，让父级div能自动获取到高度
+原理：添加一个空div，利用css提高的clear:both清除浮动，让父级div能自动获取到高度
 
 优点：简单、代码少、浏览器支持好、不容易出现怪问题
 
@@ -255,7 +255,7 @@ div{float:right}
     </body>
 </html>
 ```
->原理：IE8以上和非IE浏览器才支持:after，原理和方法2有点类似，zoom(IE专有属性)可解决ie6,ie7浮动问题 （其他浏览器不用）
+原理：IE8以上和非IE浏览器才支持:after，原理和方法2有点类似，zoom(IE专有属性)可解决ie6,ie7浮动问题 （其他浏览器不用）
 
 优点：浏览器支持好、不容易出现怪问题（目前：大型网站都有使用，如：腾迅，网易，新浪等等）
 
@@ -306,7 +306,7 @@ div{float:right}
     </body>
 </html>
 ```
->原理：必须定义width或zoom:1，同时不能定义height，使用overflow:hidden时，浏览器会自动检查浮动区域的高度
+原理：必须定义width或zoom:1，同时不能定义height，使用overflow:hidden时，浏览器会自动检查浮动区域的高度
 
 优点：简单、代码少、浏览器支持好
 
@@ -361,7 +361,7 @@ div{float:right}
     </body>
 </html>
 ```
->原理：所有代码一起浮动，就变成了一个整体
+原理：所有代码一起浮动，就变成了一个整体
 
 优点：没有优点
 
@@ -370,7 +370,7 @@ div{float:right}
 建议：不推荐使用，只作了解。
 
 ### 7、父级div定义 display:table
->原理：将div属性变成表格
+原理：将div属性变成表格
 
 优点：没有优点
 

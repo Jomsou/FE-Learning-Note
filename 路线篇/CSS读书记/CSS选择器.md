@@ -21,6 +21,7 @@ class 选择器在HTML中以class属性表示, 在 CSS 中，类选择器以一�
 
 
 * class 和 id 有什么区别
+
     1、class是设置标签的类， class属性用于指定元素属于何种样式的类；
     2、id是设置标签的标识。id属性用于定义一个元素的独特的样式。
     3、class是一个样式，先定义好， 然后可以套给多个结构/内容, 便于复用。也就是说class名称可以相同。
@@ -29,8 +30,8 @@ class 选择器在HTML中以class属性表示, 在 CSS 中，类选择器以一�
 
 * 那么什么时候用 class 什么时候用 id呢
 
-    * 单一的元素，或需要程序、JS控制的东西，需要用id定义；重复使用的元素、类别，用class定义。
-    * 如果在页面中要对某个对象进行脚本操作（js），那么可以给他定义一个id，否则只能利用遍历页面元素加上指定特定属性来找到它，这是相对浪费时间资源，远远不如一个id来得简单.
+    单一的元素，或需要程序、JS控制的东西，需要用id定义；重复使用的元素、类别，用class定义。
+    如果在页面中要对某个对象进行脚本操作（js），那么可以给他定义一个id，否则只能利用遍历页面元素加上指定特定属性来找到它，这是相对浪费时间资源，远远不如一个id来得简单.
     
 ## 群组选择器
 ![](http://i.imgur.com/J9ZVguZ.png)
@@ -81,8 +82,11 @@ color: blue;
 <h2> The strongly emphasized word in this subhead is <strong> blue </strong> . </h2>
 ```
 [相关内容](CSS组合选择符.md)
+
 CSS 后代选择器
+
 CSS 子元素选择器
+
 CSS 相邻兄弟选择器
 
 
@@ -93,6 +97,7 @@ CSS 相邻兄弟选择器
 <em><small>注释：只有在规定了 !DOCTYPE 时，IE7 和 IE8 才支持属性选择器。在 IE6 及更低的版本中，不支持属性选择。</small></em>
 
 属性选择器
+
 下面的例子为带有 title 属性的所有元素设置样式：
 ```
 [title]
@@ -101,6 +106,7 @@ color:red;
 }
 ```
 属性和值选择器
+
 下面的例子为 title="robot" 的所有元素设置样式：
 ```
 [title=robot]
@@ -109,6 +115,7 @@ border:5px solid blue;
 }
 ```
 属性和值选择器 - 多个值
+
 下面的例子为包含指定值的 title 属性的所有元素设置样式。适用于由空格分隔的属性值：
 ```
 [title~=hello] { color:red; }
@@ -118,6 +125,7 @@ border:5px solid blue;
 [lang|=en] { color:red; }
 ```
 设置表单的样式
+
 属性选择器在为不带有 class 或 id 的表单设置样式时特别有用：
 ```
 input[type="text"]
