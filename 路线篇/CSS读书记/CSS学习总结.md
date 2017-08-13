@@ -2,7 +2,7 @@
 >学了有一小段时间前端了，今做个CSS的总结！
 
 ## 知识联系图
-![](http://i.imgur.com/lYmcMYt.png)
+![](CSS.png)
 
 ## 目录：
 * [CSS简介](CSS简介.md)
