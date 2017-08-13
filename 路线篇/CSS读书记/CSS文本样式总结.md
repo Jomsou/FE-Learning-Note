@@ -30,13 +30,13 @@
 注意： 1.text-align是设置水平方向的文本属性，在块级元素生效，在行内元素不生效，比如<img src=""/>要使它生效的解决办法是在img外面加一个div
 通过设置选择器{text-align: center;margin: 0 auto;}使文本和容器都居中。以下例子没设置前，文本和容器在在IE浏览器居中，在火狐、谷歌浏览器文本居中容器没有居中。
 ![](http://i.imgur.com/HLEbdJb.png)
-内容总结：
+2.vertical-align是设置垂直方向的文本属性，在行内元素和单元格元素生效，在块级元素不生效，解决办法：将块级元素转化成单元格display：table-cell；
 ![](http://i.imgur.com/0qob3DR.png)
 
 ![](http://i.imgur.com/7o6JFaX.png)
 ![](http://i.imgur.com/eeroxW4.png)
 ![](http://i.imgur.com/cUHT6rB.png)
-vertical-align是设置垂直方向的文本属性，在行内元素和单元格元素生效，在块级元素不生效，解决办法：将块级元素转化成单元格display：table-cell；
+
 
 
 

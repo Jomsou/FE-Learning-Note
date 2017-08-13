@@ -15,12 +15,11 @@
 ![CSS元素选择器](http://upload-images.jianshu.io/upload_images/1599190-56097446be09eebf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ## 全局选择器
 又称通配符选择器，形式*{}，作用于清除浏览器默认设置，常用于margin，padding。
-## Id 和 Class选择器
-两者的区别：[传送门](http://www.jianshu.com/p/30c5bbd10115)
-	
-	* HTML元素以id属性来设置id选择器,CSS 中 id 选择器以 "#" 来定义。
-	* class 选择器在HTML中以class属性表示, 在 CSS 中，类选择器以一个点"."号显示：
-	* 类名的第一个字符不能使用数字！它无法在 Mozilla 或 Firefox 中起作用。
+## Id 和 Class选择器	
+>HTML元素以id属性来设置id选择器,CSS 中 id 选择器以 "#" 来定义。
+class 选择器在HTML中以class属性表示, 在 CSS 中，类选择器以一个点"."号显示：类名的第一个字符不能使用数字！它无法Mozilla 或 Firefox 中起作用。
+
+
 * class 和 id 有什么区别
     1、class是设置标签的类， class属性用于指定元素属于何种样式的类；
     2、id是设置标签的标识。id属性用于定义一个元素的独特的样式。

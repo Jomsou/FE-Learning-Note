@@ -3,35 +3,6 @@
 ## CSS布局的命名规范
 >各部分div命名参考
 
-头部：header
-内容：content/containe
-尾部：footer
-导航：nav
-侧栏：sidebar
-栏目：column
-左、中、右：xx_left、xx_center、xx_right
-登录条：loginbar
-登录：login
-注册：register
-标志：logo
-广告：banner
-页面主体：main
-热点：hot
-新闻：news
-下载：download
-子导航：subnav
-菜单：menu
-搜索：search
-标签页：tab
-文章列表：list
-指南：guild
-状态：status
-合作伙伴：partner
-摘要：summary
-标题：title
-提示信息：msg
-图标：icon
-注释：note
 ![](http://upload-images.jianshu.io/upload_images/1291361-46c0fd3a2e7aa0f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## CSS网页布局

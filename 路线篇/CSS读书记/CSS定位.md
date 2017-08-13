@@ -8,16 +8,19 @@
 - 浮动
 - 标准流
 - 定位
+
 ### position属性的意义
 >通过top、right、bottom、left实现位置的改变
 
 ### position属性决定了元素将如何定位
+
+
 |position可选参数|参数特性|说明|
 |-|-|-|
-|relative|可以利用 top right bottom left 进行定位|不脱离文档流,为子定位划分作用域,移动区域为整个网页
+|relative|可以利用 top right bottom left 进行定位|不脱离文档流,为子定位划分作用域,移动区域为整个网页|
 |static|浏览器默认参数|-|
-|absolute|可以利用 top right bottom left 进行定位|脱离文档流,为子定位划分作用域,移动区域为整个网页
-|fixed|可以利用 top right bottom left 进行定位|脱离文档流,为子定位划分作用域,移动区域为整个窗口区
+|absolute|可以利用 top right bottom left 进行定位|脱离文档流,为子定位划分作用域,移动区域为整个网页|
+|fixed|可以利用 top right bottom left 进行定位|脱离文档流,为子定位划分作用域,移动区域为整个窗口区|
 |inherit|position：inherit|继承父元素的定位IE属性|
 
 #### 定位中的层级
