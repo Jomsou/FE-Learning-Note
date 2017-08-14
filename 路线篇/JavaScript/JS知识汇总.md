@@ -1,5 +1,9 @@
-# JS思维导图汇总
------------------------------
+# JS知识汇总
+## 目录
+
+[JavaScript基础](JavaScript基础)
+
+
 
 ## 1.JavaScript变量
 
@@ -36,3 +40,4 @@
 ## 9.JavaScript正则表达式
 
 ![](http://images.cnitblog.com/blog/608782/201409/031430427829068.gif)
+
