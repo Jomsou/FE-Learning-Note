@@ -65,7 +65,9 @@ IE浏览器各版本 CSS hack 对照表
     “\9\0″ 只对IE9/IE10生效，是IE9/10的hack
 
 demo如下
+
 [css] view plain copy
+
 ```
 <script type="text/javascript">  
     //alert(document.compatMode);  
