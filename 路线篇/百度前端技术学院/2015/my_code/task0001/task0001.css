@@ -1,0 +1,39 @@
+/* h1 {
+    color: blue;
+}
+li{list-style: none;}
+ul li a{text-decoration: none;}
+ul li a:hover {color: #FF00FF;}
+h2 {
+    font-size: 14px;
+    text-align: center;
+}
+
+p {
+	text-indent: 48px;
+    font-size: 12px;
+    color: yellow;
+    background-color: black;
+    white-space: nowrap;
+    line-height: 50px;
+}
+
+span{
+	text-transform: lowercase;
+}
+p:first-child {
+	color: red;
+}
+p.this{word-spacing: 50px;}
+img {
+    border: red 2px solid;
+} */
+
+body{margin: 0;}
+div {
+	/* border-radius: 20px; css圆角使用*/
+	margin: auto;
+    background-color: red;
+    width: 960px;
+    height: 480px;
+} 

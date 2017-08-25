@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The first tab</title>
+	<style>
+		/*总表单*/
+		.tab{
+			margin: 17px auto;
+			width: 450px;
+			height: 400px;
+			background: #A60000;
+		}
+		/* 列表 */
+		.tab ul{
+			margin: 0;
+			padding: 0;
+			float: left;
+			width: 450px;
+			height: 49px;
+			list-style-type: none;
+			color: #fff;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+		}
+		/* 列表项 */
+		.tab ul li{
+			float: left;
+			/*记住display是在这里写，不是在ul中*/
+			display: inline;
+			text-align: center;
+			width: 150px;
+			height: 49px;
+			line-height: 49px;
+		}
+		/* 会变化的两个tab */
+		.tab  ul .bian{
+			float: left;
+			display: inline;
+			text-align: center;
+			width: 150px;
+			height: 49px;
+			line-height: 49px;
+			background: #FF0000;
+			color: #000;
+		}
+		/* 鼠标滑过的效果 */
+		.tab  ul .bian:hover{
+			cursor: pointer;
+			background: #A60000;
+			color: #fff;	
+		}
+		/* 下文文字部分 */
+		.footer{
+			clear: both;
+			width: 430px;
+			height: 332px;
+			padding: 10px;
+			color: #fff;
+
+		}
+		.footer h2{
+			width: 430px;
+			height: 31px;
+			line-height: 31px;
+			/* margin: 19.920px 0; */
+			display: block;
+		    font-size: 1.5em;
+		    /* -webkit-margin-before: 0.83em;
+		    -webkit-margin-after: 0.83em;
+		    -webkit-margin-start: 0px;
+		    -webkit-margin-end: 0px; */
+		    font-weight: bold;
+		}
+		.footer p{
+			width: 430px;
+			height: 189px;
+			/* margin: 16px 0; */
+			display: block;
+		    -webkit-margin-before: 1em;
+		    -webkit-margin-after: 1em;
+		    -webkit-margin-start: 0px;
+		    -webkit-margin-end: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div class="tab">
+		<div class="header">
+			<ul>
+				<li class="bu">Tab1</li>
+				<li class="bian">Tab2</li>
+				<li class="bian">Tab3</li>
+			</ul>
+		</div>
+		<div class="footer">
+			<h2>The first tab</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem. Aliquam ut porttitor urna. Nulla facilisi.</p>
+		</div>
+	</div>
+</body>
+</html>

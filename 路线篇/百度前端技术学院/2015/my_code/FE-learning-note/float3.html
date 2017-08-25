@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>float</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.clearfloat{
+			background-color: red;
+			width: 1000px;
+			/**
+			 * 为父元素加高度就解决塌陷问题
+			 * @type {[type]}
+			 */
+			/* height: 700px; */
+			border: 1px solid yellow;
+			/**
+			 * 在父元素加overflow: hidden;解决塌陷问题
+			 * @type {[type]}
+			 */
+			/* overflow: hidden; */
+			/*
+			
+			 *//
+		}
+		.clearfloat:after {
+			display: block;
+			clear: both;
+			content: "";
+			visibility: hidden;
+			height: 0;
+		}
+		
+		.one{
+			width: 350px;
+			height: 700px;
+			background-color: green;
+			border: none;
+			float: left;
+		}
+		.two{
+			width: 350px;
+			height: 700px;
+			background-color: blue;
+			border: none;
+			float: right;
+		}
+		/**
+		 * 加多一个div，加上claer:both;解决塌陷问题
+		 */
+		/* .three{
+			clear: both;
+		} */
+	</style>
+</head>
+<body>
+	<div class="clearfloat">
+		<div class="one">1</div>
+		<div class="two">2</div>
+		<!--<div class="three"></div>-->
+	</div>
+</body>
+</html>

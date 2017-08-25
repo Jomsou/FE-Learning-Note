@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{margin: 0;padding:0;}
+	body{
+		min-height: 700px;
+		font-size: 20px;
+		font-family: "宋体"；
+	}	
+	.header,.footer{
+		width: 100%;
+		height: 70px;
+		background-color: #333;
+		line-height: 70px;
+		text-align: center;
+		color: #fff;
+	}
+	
+	.middle,.left,.right{
+		text-align: center; 
+		position: relative;
+		float: left;
+		min-height: 700px;
+		
+
+	}
+	.container{
+		margin: 0 220px 0 200px;
+		display: table;
+	}
+	.middle{
+		background-color: gray;
+		width: 100%;
+		word-break: break-all;
+	}
+	.left{
+		width: 200px;
+		margin-left: -100%;
+		left: -200px;
+		background-color: red;
+		line-height: 700px;
+	}
+	.right{
+		width: 220px;
+		margin-left: -220px;
+		right: -220px;
+		background-color: blue;
+		line-height: 700px;
+	}
+	.footer{clear: both;}
+	</style>
+</head>
+<body>
+	<!--头部-->
+	<div class="header">
+		<h4>header</h4>
+	</div>
+	<!--主体-->
+	<div class="container">
+		<div class="middle">
+			middlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddlemiddle
+		</div>
+		<div class="left">
+			<h4>left</h4>
+		</div>
+		<div class="right">
+			<h4>right</h4>
+		</div>
+	</div>
+	<!--底部-->
+	<div class="footer">
+		<h4>footer</h4>
+	</div>
+</body>
+</html>

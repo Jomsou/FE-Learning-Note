@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{background: red;}
+		.bar{
+			width: 660px;
+			height: 340px;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			margin-top: 170px;
+			margin-left: -330px;
+		}
+		.left,.middle,.right{
+			float: left;
+		}
+		.leftbar,.rightbar{
+			margin: 10px;
+			width: 200px;
+			height: 100px;
+			background: blue;
+		}
+		.middlebar{
+			margin: 10px;
+			width: 200px;
+			height: 100px;
+			background: blue;
+		}
+	</style>
+</head>
+<body>
+	<div class="bar">
+		<div class="left">
+			<div class="leftbar"></div>
+			<div class="leftbar"></div>
+			<div class="leftbar"></div>
+		</div>
+		<div class="middle">
+			<div class="middlebar"></div>
+			<div class="middlebar"></div>
+			<div class="middlebar"></div>
+		</div>
+		<div class="right">
+			<div class="rightbar"></div>
+			<div class="rightbar"></div>
+			<div class="rightbar"></div>
+		</div>
+	</div>
+</body>
+</html>

@@ -28,11 +28,11 @@
 通过顺序插入，越后添加的定位元素层级越大
 不同父元素中的子元素的层级各不相干
 
-|z-index |属性值|
-|-|-|
-|z-index|auto(默认值)
-|z-index|inherit（继承）
-|z-index|number（number指具体数值）
+z-index |属性值
+-|-
+z-index|auto(默认值)
+z-index|inherit（继承）
+z-index|number（number指具体数值）
 ##### z-index 特性
 
 **重要**：只有在定位属性不为默认情况下才起作用。
@@ -64,6 +64,7 @@ margin、padding通过控制边距改变距离
             top: 50%;
 			margin-left: -50px;
 			margin-top: -50px;
+
         }
     </style>
 </head>

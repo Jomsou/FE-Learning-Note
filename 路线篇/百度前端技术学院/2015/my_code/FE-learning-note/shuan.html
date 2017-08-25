@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{margin: 0;padding: 0;}
+		body{min-height: 700px;font-size: 20px;font-family: "宋体";}
+		.header,.footer{
+			width: 100%;
+			background-color: #333;
+			height: 70px;
+			line-height: 70px;
+			text-align: center;
+			color: #fff;
+
+		}
+		.main,.sub,.extra{
+			float: left;
+			min-height: 700px;
+			text-align: center;
+		}
+		.main{
+			width: 100%;
+			
+		}
+		.sub{
+			margin-left: -100%;
+			width: 220px;
+			background-color: red;
+		}
+		.extra{
+			margin-left: -200px;
+			width: 200px;
+			background-color: blue;
+		}
+		.main-inner{
+			margin-left: 220px;
+			margin-right: 200px;
+			background-color: gray;
+			min-height: 700px;
+			word-break: break-all;
+		}
+		.footer{clear: both;}
+	</style>
+</head>
+<body>
+	<!--头部-->
+	<div class="header">
+		<h4>header</h4>
+	</div>
+	<!--主体-->
+	<div class="main">
+		<div class="main-inner">
+		mainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmainmain
+		</div>
+	</div>
+	<!--左侧-->
+	<div class="sub">
+		<h4>sub</h4>
+	</div>
+	<!--右侧部-->
+	<div class="extra">
+		<h4>extra</h4>
+	</div>
+	<!--底部-->
+	<div class="footer">
+		<h4>footer</h4>
+	</div>
+</body>
+</html>

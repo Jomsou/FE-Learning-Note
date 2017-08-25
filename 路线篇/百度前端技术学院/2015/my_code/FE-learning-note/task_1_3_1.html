@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#container{
+		    padding: 0px 120px 0 140px;/*腾出宽度*/
+		    }
+
+		#main{
+		    width: 100%;
+		    position: relative;
+		    background: #eee;
+		    }
+
+		#left{
+		    width: 140px;
+		    margin-left: -100%;/*将left层拉回main层所在高度区域*/
+		    left: -140px;/*调整位置*/
+		    position: relative;
+		     background: #eee;
+		    }
+
+		#right{
+		    width: 120px;
+		    margin-left: -120px;/*将right层拉回main层所在高度区域*/
+		    right: -120px;/*调整位置*/
+		    position: relative;
+		     background: #eee;
+		    }
+	</style>
+</head>
+<body>
+	<div id="container">
+	    <div id="main">123</div>
+	    <div id="left">123</div>
+	    <div id="right">123</div>
+	</div>
+</body>
+</html>

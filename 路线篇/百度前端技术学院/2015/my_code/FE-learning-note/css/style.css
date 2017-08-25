@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* 头部、底部的单行文字水平垂直居中 */
+.header,.footer{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+/* 中间容器盒子模型 */
+.container{
+	margin: 0 220px 0 200px;
+}
+/*中间三栏定位、浮动 */
+.middle,.left,.right{
+	position: relative;
+	float: left;
+}
+/* 左边定位 */
+.left{
+	width: 200px;
+	height: 700px;
+	margin-left: -100%;
+	left: -200px;
+	background: red;
+	text-align: center;
+}
+/* 右边定位 */
+.right{
+	width: 220px;
+	height: 700px;
+	margin-left: -220px;
+	left: -220px;
+	background: blue;
+	text-align: center;
+}
+/* 中间定位 */
+.middle{
+	width: 100%;
+	height: 700px;
+	background: gray;
+	text-align: center;
+	word-break: break-all;
+}
+.footer{clear: both;}

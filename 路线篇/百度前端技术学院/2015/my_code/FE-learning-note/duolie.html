@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			font-size: 20px;
+			font-family:  "宋体";
+			width: 90%;
+			margin: 0 auto;
+			min-height: 700px;
+		}
+		.header,.footer{
+			color:#fff;
+			text-align: center;
+			width: 100%;
+			height: 50px;
+			background-color: #333;
+			line-height: 50px;
+		}
+		.content{
+			text-align: center;
+			width: 100%;
+			min-height: 700px;
+			background-color: gray;
+			line-height: 1000px;
+		}
+		.content:after{
+			display: block;
+			clear: both;
+			content: ""
+		}
+		.left{
+			width: 35%;
+			height: 1000px;
+			line-height: 1000px;
+			background-color: pink;
+			float: left;
+		}
+		.right{
+			width: 35%;
+			height: 1000px;
+			line-height: 1000px;
+			background-color: pink;
+			float: right;
+		}
+		/* .clearfloat{
+			clear: both;
+		} */
+	</style>
+</head>
+<body>
+	<div class="header">这里是头部</div>
+	<div class="content">
+		<div class="left">这里是左边</div>
+		<div class="right">这里是右边</div>
+		<!-- <div class="clearfloat"></div> -->
+	</div>
+	<div class="footer">这里是脚</div>
+</body>
+</html>

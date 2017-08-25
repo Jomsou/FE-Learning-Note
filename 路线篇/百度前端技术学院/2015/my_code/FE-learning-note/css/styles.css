@@ -1,0 +1,47 @@
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ body{
+ 	min-height: 130px;
+ 	font-family: "宋体";
+ 	font-size: 30px;
+ }
+ /* 头部、底部 */
+ .header,.footer{
+ 	width: 100%;
+ 	height: 50px;
+ 	background: #333;
+ 	line-height: 50px;
+ 	text-align: center;
+ 	color: #fff;
+ }
+ /* 中间容器 */
+ .main,.sub,.extra{
+ 	float: left;
+ }
+ /*左边固定怒分*/
+ .sub{
+ 	width: 200px;
+ 	height: 710px;
+ 	background: red;
+ 	text-align: left;
+ 	margin-left: -100%;
+ }
+ /* 右边固定部分 */
+ .extra{
+ 	width: 220px;
+ 	height: 710px;
+ 	background: blue;
+ 	text-align: right;
+ 	margin-left: -220px;
+ }
+/*  中间自适应部分 */
+ .middle-iner{
+ 	width: 100%;
+ 	height: 710px;
+ 	background: gray;
+ 	text-align: center;
+ 	word-break: break-all;
+ }
+.footer{clear: both;}
