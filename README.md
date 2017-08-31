@@ -61,7 +61,7 @@
 		- [Bind的使用场景](./资源篇/博客好文/09-Bind的使用场景.md)
 		- [React Router源码解析](./资源篇/博客好文/10-React Router源码解析.md)
 		- [Web Components详解](./资源篇/博客好文/11-Web Components详解.md)
-		
+		- [博客补充](./资源篇/博客补充.md)
     - [前沿技术社区、会议](前沿技术社区、会议.md)
 ## License
 
