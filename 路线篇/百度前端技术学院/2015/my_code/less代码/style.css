@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-08-31 17:41:00
+ * @version $Id$
+ */
+body {
+  background: red;
+}
+/*注释*/
+.box {
+  width: 200px;
+  height: 200px;
+  background: yellow;
+}
