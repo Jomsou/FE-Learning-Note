@@ -1,5 +1,8 @@
 # HTML学习记
 
+![](images/HTML.png)
+![](images/HTML5多媒体.png)
+
 ## HTML基础:
 >HTML是网页的结构，CSS是网页的外观，而JavaScript是页面的行为。
 
@@ -200,3 +203,7 @@ HTML注释是为了代码可读易懂，注释的内容在浏览器不会显示�
 ![点击frame_a后的效果](http://upload-images.jianshu.io/upload_images/1599190-4bc38faa51aab520.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![点击frame_b后的效果](http://upload-images.jianshu.io/upload_images/1599190-3a3ea235571625d4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![点击frame_c后的效果](http://upload-images.jianshu.io/upload_images/1599190-6865a950eb3f1637.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+## License
+
+### © 2017 Jomsou
